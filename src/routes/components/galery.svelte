@@ -33,7 +33,7 @@
 	];
 </script>
 
-<div class="grid grid-cols-2 gap-10 p-5">
+<section class="grid grid-cols-2 gap-10 p-16">
 	{#each items as item}
 		<div class="rounded-[120px]">
 			{#if item.type === 'image'}
@@ -43,4 +43,4 @@
 			{/if}
 		</div>
 	{/each}
-</div>
+</section>
