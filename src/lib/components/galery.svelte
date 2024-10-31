@@ -33,7 +33,7 @@
 	];
 </script>
 
-<section class="grid grid-cols-2 gap-10 p-16">
+<section class="xs:grid-cols-1 grid gap-10 p-16 md:grid-cols-2">
 	{#each items as item}
 		<div class=" group relative overflow-hidden rounded-lg">
 			{#if item.type === 'image'}
